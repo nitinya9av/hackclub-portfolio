@@ -241,3 +241,59 @@ section .title::after{
 .skills-content .right .cpp::before{
     width: 30%;
 }
+
+/* achievement section styling */
+.achievement
+{
+    color:#fff;
+    background: #111;
+}
+.achievement .title::before
+{
+    background: #fff;
+}
+.achievement .title::after
+{
+    background: #111;
+    content: "what i earned";
+}
+.achievement .achievement-content .left{
+    width: 55%;
+}
+.achievement .achievement-content .left .text-2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.achievement .achievement-content .left p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.achievement .achievement-content .left img{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.achievement .achievement-content .right{
+    width: 45%;
+}
+.achievement .achievement-content .right img{
+    height: 550px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.achievement .achievement-content .right .text-2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.achievement .achievement-content .right p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
