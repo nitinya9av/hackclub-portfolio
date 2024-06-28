@@ -718,8 +718,8 @@ footer span a:hover{
         font-size: 30px;
     }
     .achievement .achievement-content .left img{
-        height: 250px;
-        width: 350px;
+        height: 150px;
+        width: 250px;
         margin-left: 0px;
         margin-bottom: 100px;
         object-fit: cover;
