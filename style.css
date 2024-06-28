@@ -562,13 +562,31 @@ footer span a:hover{
         height: 500px;
         width: 350px;
     }
-}
-
-@media (max-width: 1104px) {
-    .projects .projects-content .right img{
-        height: 255px;
-        width: 255px;
-        margin-left: 0px;
+    .achievement .achievement-content .left img{
+        height: 350px;
+        width: 550px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .achievement .achievement-content .left3 img{
+        height: 500px;
+        width: 450px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .achievement .achievement-content .right img{
+        height: 550px;
+        width: 400px;
+        object-fit: cover;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        border-radius: 6px;
+    }
+    .achievement .achievement-content .right2 img{
+        object-fit: cover;
+        margin-left: 300px;
+        margin-bottom: 100px;
+        border-radius: 6px;
     }
 }
 
@@ -624,12 +642,21 @@ footer span a:hover{
     {
         width: 100%;
     }
-    .about .about-content .left{
+    .about .about-content .left,
+    .achievement .achievement-content .left .img,
+    .achievement .achievement-content .left3 .img,
+    .achievement .achievement-content .right .img,
+    .achievement .achievement-content .right2 .img
+
+    {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .right{
+    .about .about-content .right,
+    .achievement .achievement-content .left2,
+    .achievement .achievement-content .right3
+    {
         flex: 100%;
     }
     .skills .skills-content .column,
@@ -657,6 +684,17 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
+    .achievement .achievement-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .achievement .achievement-content img {
+        display: block; /* Makes the image a block element */
+        margin: 0 auto; /* Centers the image horizontally */
+        width: 100%; /* Optional: Adjusts the width to fit the container */
+        height: auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -682,25 +720,30 @@ footer span a:hover{
     .achievement .achievement-content .left img{
         height: 250px;
         width: 350px;
+        margin-left: 0px;
+        margin-bottom: 100px;
         object-fit: cover;
         border-radius: 6px;
     }
     .achievement .achievement-content .left3 img{
         height: 300px;
         width: 250px;
+        margin-left: 0px;
+        margin-bottom: 100px;
         object-fit: cover;
         border-radius: 6px;
     }
     .achievement .achievement-content .right img{
         height: 350px;
         width: 250px;
+        margin-left: 0px;
         object-fit: cover;
         margin-bottom: 100px;
         border-radius: 6px;
     }
     .achievement .achievement-content .right2 img{
         object-fit: cover;
-        margin-top: 100px;
+        margin-left: 0px;
         margin-bottom: 100px;
         border-radius: 6px;
     }
